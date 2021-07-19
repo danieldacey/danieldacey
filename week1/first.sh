@@ -1,6 +1,6 @@
 #!/bin/bash -   
 #title          :first.sh
-#description    :Example of echo comment to print to the terminal
+#description    :Example of echo command to print to the terminal
 #author         :Daniel Dacey
 #date           :20210719
 #version        :1      
