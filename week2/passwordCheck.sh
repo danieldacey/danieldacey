@@ -16,8 +16,7 @@ echo $pword_var | sha256sum secret.txt --check --quiet --status
 #Use the exit code from sha256sum using '$?'  
 #and advise the user if they have access granted and exit on code 0 with match
 #otherwise print access denied with exit code 1
-if [ $? -eq 0 ] 
-then
+if [ $? -eq 0 ]; then 
      echo -e "\nAccess Granted"
      exit 0
 else
