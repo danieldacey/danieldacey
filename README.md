@@ -2,13 +2,13 @@
 <img width="100%" height = "250px" src="https://www.picpedia.org/chalkboard/images/cybersecurity.jpg" alt="cover" />
 </div>
 
-<h1> Hi and welcome to my github repositary>! <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 50px> </h1>
+<h1> Hi and welcome to my github repository <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 50px> </h1>
 <p align='center'>
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=danieldacey.danieldacey)
 
 </p>
-<div size='20px'> Hi! My name is Daniel Dacey. Thank You for taking the time to view my GitHub Profile :smile: 
+<div size='20px'> Hi! My name is Daniel Dacey. I am a VET teacher and student studying Cyber Security at Edith Cowan University. Thank You for taking the time to view my GitHub Profile :smile: 
 </div>
 
 - 🔭 I’m currently working on CYB6004.2021.AC4.OFFCAMPUS Scripting Languages
@@ -26,7 +26,3 @@
 <h2> Some Programming Humor for you <img align ='center' src='https://media2.giphy.com/media/UQDSBzfyiBKvgFcSTw/giphy.gif?cid=ecf05e47p3cd513axbek3f56ti3jzizq8hincw20jauyyfyw&rid=giphy.gif' width = '32px'></h2>
 
 ![Jokes Card](https://readme-jokes.vercel.app/api?theme=default)
-
-
-<br>
-<footer align='center'>README made with help of <a href='https://github.com/rahulbanerjee26/githubProfileReadmeGenerator'>githubProfileReadmeGenerator</a> </footer>
