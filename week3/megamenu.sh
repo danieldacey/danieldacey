@@ -1,6 +1,6 @@
 #!/bin/bash   
 #title          :megamenu.sh
-#description    :Selected a Bash script to run using a simple menu and case statement
+#description    :Select a Bash script to run using a simple menu and case statement
 #author         :Daniel Dacey
 #date           :20210802
 #version        :1      
