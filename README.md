@@ -2,13 +2,13 @@
 <img width="100%" height = "250px" src="https://www.picpedia.org/chalkboard/images/cybersecurity.jpg" alt="cover" />
 </div>
 
-<h1> Hi and welcome to my github repository <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 50px> </h1>
+<h1> Welcome to my github repository <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 50px> </h1>
 <p align='center'>
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=danieldacey.danieldacey)
 
 </p>
-<div size='20px'> Hi! My name is Daniel Dacey. I am a VET teacher and student studying Cyber Security at Edith Cowan University. Thank You for taking the time to view my GitHub Profile :smile: 
+<div size='20px'>My name is Daniel Dacey. I am a VET teacher and student studying Cyber Security at Edith Cowan University. Thank You for taking the time to view my GitHub Profile :smile: 
 </div>
 
 - 🔭 I’m currently working on CYB6004.2021.AC4.OFFCAMPUS Scripting Languages
