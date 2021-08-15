@@ -19,4 +19,4 @@ while [ $num != 42 ]; do
     fi
     read -p "Please type a number between 1 and 100 " num
 done
-echo "Correct!"
+echo "Right!"
