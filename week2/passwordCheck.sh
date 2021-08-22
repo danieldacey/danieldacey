@@ -15,6 +15,7 @@ Green="`tput setaf 2`"
 White="`tput setaf 7`"
 
 #Ask the user to type a secret password (hide that input)
+echo "/n"
 read -sp $"${Red}Enter Password: " pword_var
 #Check the user’s password against the hash stored in 'secret.txt' using sh256sum for a match
 echo $pword_var | sha256sum ~/scripts/portfolio/week2/secret.txt --check --quiet --status
