@@ -23,13 +23,13 @@ echo -en "\n"
 
 #Menu function
 menu_selection () {
- echo -e "${Blue}Please select a report option:"
- echo -e "${Cyan}1. Individuals and mamilies"
- echo -e "2. Small and medium businesses"
- echo -e "3. Large organisations"
- echo -e "4. Government"
- echo -e "${White}0. Exit" 
- read choice
+    echo -e "${Blue}Please select a report option:"
+    echo -e "${Cyan}1. Individuals and families"
+    echo -e "2. Small and medium businesses"
+    echo -e "3. Large organisations"
+    echo -e "4. Government"
+    echo -e "${White}0. Exit"     
+    read choice    
 }
 
 #Check Password
@@ -55,5 +55,6 @@ if [ $? -eq 0 ]; then
         #Get next menu selection
         menu_selection
     done
+    clear
     exit 0
 fi
