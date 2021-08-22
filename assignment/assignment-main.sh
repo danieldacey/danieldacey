@@ -1,10 +1,10 @@
 #!/bin/bash
-#title          :security_alerts.sh
+#title          :assignment-main.sh
 #description    :Checks Australian Cyber Security Centre for security alerts based on your criteria
 #author         :Daniel Dacey SN: 10563410
-#date           :20210822
+#date           :20210823
 #version        :1
-#usage          :./security_alerts.sh
+#usage          :./assignment-main.sh
 #notes          :Assignment 4 CYB6004 Software Based Solution
 #bash_version   :5.0.17(1)-release
 #============================================================================
