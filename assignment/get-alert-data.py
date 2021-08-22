@@ -7,7 +7,7 @@ from bs4.element import ResultSet
 import sys
 
 #Get Alert Data
-#Filename: GetAlertData.py
+#Filename: get-alert-data.py
 #Author: Daniel Dacey
 #Version: 1.0
 #Description: Web scrapes alerts from cyber.gov.au and returns the results

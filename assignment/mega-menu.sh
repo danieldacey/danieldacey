@@ -1,10 +1,10 @@
 #!/bin/bash   
-#title          :megamenu.sh
+#title          :mega-menu.sh
 #description    :Select a Bash script to run using a simple menu and case statement
 #author         :Daniel Dacey
-#date           :20210802
+#date           :20210822
 #version        :2.0      
-#usage          :./megamenu.sh
+#usage          :./mega-menu.sh
 #notes          :      
 #bash_version   :5.0.17(1)-release
 #============================================================================
