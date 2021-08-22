@@ -5,7 +5,7 @@
 #date           :20210823
 #version        :1
 #usage          :./output-table.sh
-#notes          :
+#notes          : Uses data.txt as the source for building the output
 #bash_version   :5.0.17(1)-release
 #===========================================================================================
 
@@ -35,9 +35,13 @@ END {
 }' data.txt
 
 #Collect some stats and display
+#Use wc to count lines and awk to keep track of the total number of lines 
 linecount=$(wc -l data.txt | awk '{ print $1 }')
+#Use grep tp find all the lines with CRITICAl in them and do a count with wc
 criticalcount=$(grep -o 'CRITICAL' data.txt | wc -l)
+#Use date to get the current date the table was generated
 reportdate=$(date +"%d-%m-%Y")
+#Display the statistics using tput to change the echo output colour
 echo "$(tput setaf 6)Total number of alerts: $linecount"
 echo "$(tput setaf 1)Critical alerts: $criticalcount"
 echo "$(tput setaf 6)Report generated: $reportdate"
