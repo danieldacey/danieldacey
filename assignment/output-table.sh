@@ -19,19 +19,19 @@ awk 'BEGIN {
     FS=":";
 
     #Heading
-    print "|\033[34m Date    \033[0m    |\033[34m Urgency   \033[0m|\033[34m Title                                                                                      \033[0m|";
+    print "|\033[34m Date    \033[0m    |\033[34m Urgency   \033[0m|\033[34m Title                                                                                             \033[0m|";
 
-    print "|_____________|___________|____________________________________________________________________________________________|";
+    print "|_____________|___________|___________________________________________________________________________________________________|";
 }
 
 #Read Cyber Alerts and display
  {
     #Detail line with colors and spacing      
-    printf("| \033[33m%-11s\033[0m | \033[31m%-8s\033[0m  | \033[37m%-90s\033[0m |\n", $1, $2, $3);
+    printf("| \033[33m%-11s\033[0m | \033[31m%-8s\033[0m  | \033[37m%-90s\033[0m        |\n", $1, $2, $3);
 }
 
 END {   
-    print "|_____________|___________|____________________________________________________________________________________________|";
+    print "|_____________|___________|___________________________________________________________________________________________________|";
 }' data.txt
 
 #Collect some stats and display
@@ -41,7 +41,8 @@ linecount=$(wc -l data.txt | awk '{ print $1 }')
 criticalcount=$(grep -o 'CRITICAL' data.txt | wc -l)
 #Use date to get the current date the table was generated
 reportdate=$(date +"%d-%m-%Y")
+reporttime=$(date +"%T")
 #Display the statistics using tput to change the echo output colour
 echo "$(tput setaf 6)Total number of alerts: $linecount"
 echo "$(tput setaf 1)Critical alerts: $criticalcount"
-echo "$(tput setaf 6)Report generated: $reportdate"
+echo "$(tput setaf 6)Report generated: $reporttime on $reportdate"
