@@ -32,6 +32,6 @@ function_summary = re.findall(r'acsc-summary">(.*?)</p>',str(names))
 
 #Return the results to data.txt
 f = open("data.txt","w")
-for x in range(len(function_title)):
+for x in range(len(function_title)-1):
    f.write(function_dates[x]+":"+function_alert[x]+":"+function_title[x]+":"+function_summary[x]+"\n")
 f.close()
