@@ -33,7 +33,7 @@ menu_selection () {
 }
 
 #Check Password
-#bash ./password-check.sh
+bash ./password-check.sh
 #Continue if exit 0 from previous script
 if [ $? -eq 0 ]; then
     #Get menu slection
