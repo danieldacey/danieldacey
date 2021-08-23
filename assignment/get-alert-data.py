@@ -28,7 +28,9 @@ function_dates = re.findall('[0-9]{2}\s[A-Z][a-z]{2}\s[0-9]{4}',str(names))
 function_alert = re.findall('>[A-Z][A-Z]+<',str(names))
 function_alert = [item[1:len(item)-1] for item in function_alert]
 function_title = re.findall(r'acsc-title">(.*?)</p>',str(names))
+function_title = [item[0:90] for item in function_title]
 function_summary = re.findall(r'acsc-summary">(.*?)</p>',str(names))
+function_summary = [item[0:120] for item in function_summary]
 
 #Return the results to data.txt
 f = open("data.txt","w")
